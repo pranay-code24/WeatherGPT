@@ -150,7 +150,7 @@
                     },
                     "infoLink": {
                       "type": "string",
-                      "format": "uri",
+                      "format": " uri ",
                       "description": "A link to a page with more information about the location's weather in the format https://weathergpt.vercel.app/{location}."
                     }
                   }
