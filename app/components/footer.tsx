@@ -8,7 +8,7 @@ export function Footer({ children }: React.PropsWithChildren<{}>) {
         rel="noreferrer"
         className="vercel"
       >
-        <svg
+        <svg 
           width="106"
           height="24"
           viewBox="0 0 106 24"

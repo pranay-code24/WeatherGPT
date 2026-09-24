@@ -7,7 +7,7 @@ export async function generateMetadata({
   params,
 }: {
   params: { location: string };
-}) {
+}) { 
   const data = await getWeatherData(params.location);
 
   return {

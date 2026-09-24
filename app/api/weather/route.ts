@@ -6,7 +6,7 @@ export const runtime = "edge";
 
 export async function GET(req: NextRequest) {
   let location = req.nextUrl.searchParams.get("location");
-  if (!location) {
+  if (!location) { 
     const { city } = geolocation(req);
     location = city || "San Francisco";
   }

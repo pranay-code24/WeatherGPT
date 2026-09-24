@@ -6,7 +6,7 @@ export const runtime = "edge";
 const stats = [
   {
     name: "TEMPERATURE",
-    attr: "temp_c",
+    attr: "temp_c", 
     unit: "°C",
   },
   {
