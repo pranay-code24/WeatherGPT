@@ -9,6 +9,5 @@ export default async function Page() {
   const city =
     !parsedCity || parsedCity === "null" ? "San Francisco" : parsedCity;
   const data = await getWeatherData(city);
-
   return <PageData data={data} />;
 }
